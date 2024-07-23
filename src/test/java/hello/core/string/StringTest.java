@@ -26,6 +26,7 @@ public class StringTest {
         String s2 = "hello";
         String s3 = new String("hello");
         String s4 = new String("hello");
+        String s5 = "commit test";
 
         assertThat(s1).isNotSameAs(s3);
         assertThat(s3).isNotSameAs(s4);
