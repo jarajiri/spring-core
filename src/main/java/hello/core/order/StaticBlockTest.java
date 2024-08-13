@@ -2,6 +2,7 @@ package hello.core.order;
 
 class SBTest{
     static int A ;
+
     static {
         test();
         A++;
@@ -33,7 +34,7 @@ class SBTest{
 
 public class StaticBlockTest {
     public static void main(String[] args) {
-
+        System.out.println("StaticBlockTest.main");
         SBTest.test();
         SBTest a = new SBTest();
         SBTest b = new SBTest();
